@@ -7,11 +7,19 @@ using the [Omniauth 1.0](http://github.com/intridea/omniauth) gem.
 Getting Started
 ---------------
 
+Get Tumblr API keys and put them in `config/oauth.yml`
+
+<http://www.tumblr.com/oauth/apps>
+
+Setup the app:
+
     gem install bundler
     bundle install
     bundle exec rails server
 
-Then visit <http://localhost:3000>
+Then visit /auth/:provider URL to authenticate:
+
+<http://localhost:3000/auth/tumblr>
 
 
 License
