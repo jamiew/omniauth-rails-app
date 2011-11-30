@@ -1,6 +1,8 @@
 .bundle
 .DS_Store
 .gems
+config/database.yml
+config/oauth.yml
 db/*.sqlite3
 log/*.log
 tmp
