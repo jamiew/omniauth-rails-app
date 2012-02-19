@@ -1,7 +1,7 @@
 Omniauth Rails example application
 ==================================
 
-Ruby on Rails working with the [Tumblr API](tumblr.com/docs/en/api/v2)
+Ruby on Rails working with the [Tumblr API](http://tumblr.com/docs/en/api/v2)
 using the [Omniauth 1.0](http://github.com/intridea/omniauth) gem.
 
 Getting Started
@@ -10,6 +10,8 @@ Getting Started
 Get Tumblr API keys and put them in `config/oauth.yml`
 
 <http://www.tumblr.com/oauth/apps>
+
+Edit *config/oauth.yml* and add your [Tumblr API keys](http://tumblr.com/docs/en/api/v2).
 
 Setup the app:
 
