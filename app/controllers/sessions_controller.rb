@@ -2,12 +2,12 @@ class SessionsController < ApplicationController
 
   def new
     logger.debug "params: #{params.inspect}"
-    render :text => "Auth: <a href='/auth/tumblr'>Tumblr</a>, <a href='/auth/youtube'>YouTube</a>"
+    services = ['youtube', 'tumblr', 'google_oauth2', 'twitter']
+    links = services.map{|service| "<a style='margin: 15px;' href='/auth/#{service}'>#{service.camelize}</a>" }
+    render :text => "<span style='font-size: 20pt;'>#{links}</span>"
   end
 
   def create
-    require 'pp'
-    pp request.env
     render :text => "<pre>"+request.env["omniauth.auth"].to_yaml+"</pre>"
   end
 
