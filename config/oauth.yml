@@ -1,12 +1,15 @@
+# Warning: these are all registered to sandbox applications setup by @jamiew
+# Don't use in production! For testing/verification only and subject to change
+
 tumblr:
-  key: "foo"
-  secret: "bar"
-google: # also YouTube
-  key: "555555555.apps.googleusercontent.com"
-  secret: "bar"
+  key: "5UvsOKeh6glWaMikIjKpWGCgEbIlpivNTZiIcFO8SJ35rLMtgP"
+  secret: "VE1yzYX5a9fkmkESvSjyS0jigQPvNfD1D2dUd7gUZdJzzstOj0"
+google: # also used by the YouTube provider
+  key: "746331387491.apps.googleusercontent.com"
+  secret: "k_IixsOIqCpIXUb3smTjz-9H"
 twitter:
-  key: "foo"
-  secret: "bar"
+  key: "KgjC3GYmSLGSm4d9DzQ"
+  secret: "616Bg7OVLtrfVydKI1j8Twkm1bwEA6trlZa99hM7xg"
 github:
-  key: "foo"
-  secret: "bar"
+  key: "035a2ae1ed5c428a17c5"
+  secret: "be588e390dc299199068843b9bcd3fa1f81fbad3"
