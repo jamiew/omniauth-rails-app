@@ -1,27 +1,50 @@
-Omniauth Rails example application
+Omniauth + Rails example application
 ==================================
 
-Ruby on Rails working with the [Tumblr API](http://tumblr.com/docs/en/api/v2)
-using the [Omniauth 1.0](http://github.com/intridea/omniauth) gem.
+A Rails 3.2 application with [Omniauth 1.0](http://github.com/intridea/omniauth),
+configured to authenticate out-of-box with the following providers:
+
+Up-to-date as of May 15, 2012.
+
+* Twitter
+* Tumblr
+* GitHub
+* Google (OAuth 2)
+* YouTube (OAuth 2)
+* 'Developer' (testing)
+
+API Keys
+---------------
+
+We've registered and included config keys for sandbox applications so that this reference app Just Works™,
+but you will want to register your own API keys on various services for use in a production app.
+
+API keys and secrets go in *config/oauth.yml* and are loaded and configured in *config/initializers/omniauth.rb*
 
 Getting Started
 ---------------
 
-Get Tumblr API keys and put them in `config/oauth.yml`
-
-<http://www.tumblr.com/oauth/apps>
-
-Edit *config/oauth.yml* and add your [Tumblr API keys](http://tumblr.com/docs/en/api/v2).
-
-Setup the app:
+To setup the app:
 
     gem install bundler
     bundle install
+    bundle exec rake db:setup
     bundle exec rails server
 
-Then visit /auth/:provider URL to authenticate:
+Then visit /auth/:provider URL to authenticate, like:
 
 <http://localhost:3000/auth/tumblr>
+
+Provider Info
+-------------
+
+For documentation, API information and configuration options for each provider, check out the relevant gems:
+
+* [omniauth-tumblr](https://github.com/jamiew/omniauth-tumblr)
+* [omniauth-youtube](https://github.com/jamiew/omniauth-youtube)
+* [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
+* [omniauth-github](https://github.com/intridea/omniauth-github)
+* [omniauth-twitter](https://github.com/arunagw/omniauth-twitter)
 
 
 License
