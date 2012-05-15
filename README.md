@@ -1,17 +1,19 @@
 Omniauth + Rails example application
 ==================================
 
-A Rails 3.2 application with [Omniauth 1.0](http://github.com/intridea/omniauth),
+A Rails 3.2 application with [OmniAuth 1.0](http://github.com/intridea/omniauth),
 configured to authenticate out-of-box with the following providers:
 
 Up-to-date as of May 15, 2012.
 
+* 'Developer' (testing)
 * Twitter
 * Tumblr
 * GitHub
 * Google (OAuth 2)
 * YouTube (OAuth 2)
-* 'Developer' (testing)
+* Facebook (OAuth 2)
+* Vimeo
 
 API Keys
 ---------------
@@ -45,6 +47,8 @@ For documentation, API information and configuration options for each provider, 
 * [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
 * [omniauth-github](https://github.com/intridea/omniauth-github)
 * [omniauth-twitter](https://github.com/arunagw/omniauth-twitter)
+* [omniauth-facebook](https://github.com/mkdynamic/omniauth-facebook)
+* [omniauth-vimeo](https://github.com/lomography/omniauth-vimeo)
 
 
 License

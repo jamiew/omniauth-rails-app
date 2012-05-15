@@ -13,6 +13,8 @@ gem 'omniauth-tumblr', :git => 'git://github.com/jamiew/omniauth-tumblr.git'
 gem 'omniauth-youtube', :git => 'git://github.com/jamiew/omniauth-youtube.git'
 
 # For testing/comparison
+gem 'omniauth-facebook'
 gem 'omniauth-github'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-twitter'
+gem 'omniauth-vimeo'

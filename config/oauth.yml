@@ -13,3 +13,9 @@ twitter:
 github:
   key: "035a2ae1ed5c428a17c5"
   secret: "be588e390dc299199068843b9bcd3fa1f81fbad3"
+facebook:
+  key: "408333219187655"
+  secret: "1386419fd2a41eef926075d763ee497a"
+vimeo:
+  key: "79781aadb43f0bdf8d8393639a98a86bfe02a3c8"
+  secret: "8254e3e19b18cbd9fb0b8495266f96a79d28509b"
