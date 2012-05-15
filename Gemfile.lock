@@ -1,4 +1,20 @@
 GIT
+  remote: git://github.com/intridea/omniauth-oauth2.git
+  revision: 89d984ed9ff679a0f657f882afc87c7421db5f63
+  specs:
+    omniauth-oauth2 (1.0.2)
+      oauth2 (~> 0.6.0)
+      omniauth (~> 1.0)
+
+GIT
+  remote: git://github.com/intridea/omniauth.git
+  revision: c62e4f831896fa2c8e3e63896c483a74d98ff2d2
+  specs:
+    omniauth (1.1.0)
+      hashie (~> 1.2)
+      rack
+
+GIT
   remote: git://github.com/jamiew/omniauth-tumblr.git
   revision: 0fafa6ba65940374439d46dfff7b117e8427fc30
   specs:
@@ -65,15 +81,17 @@ GEM
       faraday (~> 0.7)
       httpauth (~> 0.1)
       multi_json (~> 1.3)
-    omniauth (1.1.0)
-      hashie (~> 1.2)
-      rack
+    omniauth-github (1.0.1)
+      omniauth (~> 1.0)
+      omniauth-oauth2 (~> 1.0)
+    omniauth-google-oauth2 (0.1.9)
+      omniauth (~> 1.0)
+      omniauth-oauth2
     omniauth-oauth (1.0.1)
       oauth
       omniauth (~> 1.0)
-    omniauth-oauth2 (1.0.2)
-      oauth2 (~> 0.6.0)
-      omniauth (~> 1.0)
+    omniauth-twitter (0.0.7)
+      omniauth-oauth (~> 1.0)
     polyglot (0.3.3)
     rack (1.4.1)
     rack-cache (1.2)
@@ -117,7 +135,12 @@ PLATFORMS
 
 DEPENDENCIES
   json
+  omniauth!
+  omniauth-github
+  omniauth-google-oauth2
+  omniauth-oauth2!
   omniauth-tumblr!
+  omniauth-twitter
   omniauth-youtube!
   rails (~> 3.2)
   sqlite3

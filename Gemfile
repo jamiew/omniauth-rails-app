@@ -4,10 +4,15 @@ gem 'rails', '~> 3.2'
 gem 'sqlite3'
 gem 'json'
 
-# gem 'omniauth'
-# gem 'omniauth-oauth', :path => '~/dev/omniauth-oauth'
-# gem 'omniauth-tumblr', :path => '~/dev/omniauth-tumblr'
-# gem 'omniauth-youtube', :path => '~/dev/omniauth-youtube'
+# Core dependencies, pulled from master
+gem 'omniauth', :git => 'git://github.com/intridea/omniauth.git'
+gem 'omniauth-oauth2', :git => 'git://github.com/intridea/omniauth-oauth2.git'
 
+# Under active development
 gem 'omniauth-tumblr', :git => 'git://github.com/jamiew/omniauth-tumblr.git'
 gem 'omniauth-youtube', :git => 'git://github.com/jamiew/omniauth-youtube.git'
+
+# For testing/comparison
+gem 'omniauth-github'
+gem 'omniauth-google-oauth2'
+gem 'omniauth-twitter'
