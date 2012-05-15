@@ -4,16 +4,20 @@ Omniauth + Rails example application
 A Rails 3.2 application with [OmniAuth 1.0](http://github.com/intridea/omniauth),
 configured to authenticate out-of-box with the following providers:
 
-Up-to-date as of May 15, 2012.
 
-* 'Developer' (testing)
 * Twitter
 * Tumblr
 * GitHub
 * Google (OAuth 2)
 * YouTube (OAuth 2)
-* Facebook (OAuth 2)
+* Facebook
 * Vimeo
+* 'Developer' (testing)
+
+(Up-to-date as of May 15, 2012)
+
+A demo of the app online: <http://omniauth-rails-app.herokuapp.com>
+
 
 API Keys
 ---------------
