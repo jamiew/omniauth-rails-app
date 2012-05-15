@@ -1,8 +1,8 @@
 source 'http://rubygems.org'
 
 gem 'rails', '~> 3.2'
-gem 'sqlite3'
-gem 'json'
+gem 'sqlite3', :group => 'development'
+gem 'pg', :group => 'production'
 
 # Core dependencies, pulled from master
 gem 'omniauth', :git => 'git://github.com/intridea/omniauth.git'
