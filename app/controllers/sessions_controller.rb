@@ -2,7 +2,7 @@ class SessionsController < ApplicationController
 
   def new
     logger.debug "params: #{params.inspect}"
-    render :text => "Click this <a href='/auth/tumblr'>phatty link</a>"
+    render :text => "Auth: <a href='/auth/tumblr'>Tumblr</a>, <a href='/auth/youtube'>YouTube</a>"
   end
 
   def create
