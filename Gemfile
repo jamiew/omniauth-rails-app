@@ -4,6 +4,12 @@ gem 'rails', '~> 3.2'
 gem 'sqlite3', :group => 'development'
 gem 'pg', :group => 'production'
 
+group :assets do
+  gem 'sass-rails', '~> 3.2'
+  gem 'coffee-rails', '~> 3.2'
+  gem 'uglifier', '>= 1.0'
+end
+
 # Core dependencies, pulled from master
 gem 'omniauth', :git => 'git://github.com/intridea/omniauth.git'
 gem 'omniauth-oauth2', :git => 'git://github.com/intridea/omniauth-oauth2.git'
