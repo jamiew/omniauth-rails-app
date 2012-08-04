@@ -15,10 +15,10 @@ gem 'omniauth', :git => 'git://github.com/intridea/omniauth.git'
 gem 'omniauth-oauth2', :git => 'git://github.com/intridea/omniauth-oauth2.git'
 
 # Under active development
-#gem 'omniauth-tumblr', :git => 'git://github.com/jamiew/omniauth-tumblr.git'
-gem 'omniauth-tumblr', :path => '~/dev/omniauth-strategies/omniauth-tumblr'
-#gem 'omniauth-youtube', :git => 'git://github.com/jamiew/omniauth-youtube.git'
-gem 'omniauth-youtube', :path => '~/dev/omniauth-strategies/omniauth-youtube'
+gem 'omniauth-tumblr', :git => 'git://github.com/jamiew/omniauth-tumblr.git'
+#gem 'omniauth-tumblr', :path => '~/dev/omniauth-strategies/omniauth-tumblr'
+gem 'omniauth-youtube', :git => 'git://github.com/jamiew/omniauth-youtube.git'
+#gem 'omniauth-youtube', :path => '~/dev/omniauth-strategies/omniauth-youtube'
 
 
 # For testing/comparison

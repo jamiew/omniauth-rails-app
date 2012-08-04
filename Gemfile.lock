@@ -14,14 +14,16 @@ GIT
       hashie (~> 1.2)
       rack
 
-PATH
-  remote: ~/dev/omniauth-strategies/omniauth-tumblr
+GIT
+  remote: git://github.com/jamiew/omniauth-tumblr.git
+  revision: 220ca251934f223f79a92474b97be3d4a39ad6f1
   specs:
-    omniauth-tumblr (1.0)
+    omniauth-tumblr (1.1)
       omniauth-oauth (~> 1.0)
 
-PATH
-  remote: ~/dev/omniauth-strategies/omniauth-youtube
+GIT
+  remote: git://github.com/jamiew/omniauth-youtube.git
+  revision: ae15971e55069755a821f3fe2ce5f9542e6532fb
   specs:
     omniauth-youtube (2.0)
       omniauth-oauth2 (~> 1.0)
