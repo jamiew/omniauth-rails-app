@@ -8,17 +8,18 @@ GIT
 
 GIT
   remote: git://github.com/intridea/omniauth.git
-  revision: c62e4f831896fa2c8e3e63896c483a74d98ff2d2
+  revision: cfd41522ec85127f14d30be442246e2a82425bd5
   specs:
-    omniauth (1.1.0)
+    omniauth (1.1.1)
       hashie (~> 1.2)
       rack
 
 GIT
   remote: git://github.com/jamiew/omniauth-tumblr.git
-  revision: 220ca251934f223f79a92474b97be3d4a39ad6f1
+  revision: 414da1c2d0311bda500649e2108e23c8ed6d4b5f
   specs:
     omniauth-tumblr (1.1)
+      multi_json
       omniauth-oauth (~> 1.0)
 
 GIT
@@ -85,7 +86,7 @@ GEM
     mime-types (1.18)
     multi_json (1.3.5)
     multipart-post (1.1.5)
-    oauth (0.4.6)
+    oauth (0.4.7)
     oauth2 (0.6.1)
       faraday (~> 0.7)
       httpauth (~> 0.1)
