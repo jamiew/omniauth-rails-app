@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: git://github.com/jamiew/omniauth-tumblr.git
-  revision: 414da1c2d0311bda500649e2108e23c8ed6d4b5f
+  revision: 078c18c746c3f894e0edb1a0862e75a0d6da67a3
   specs:
     omniauth-tumblr (1.1)
       multi_json
