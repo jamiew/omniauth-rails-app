@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'rails', '~> 3.2'
 gem 'sqlite3', :group => 'development'
@@ -11,13 +11,15 @@ group :assets do
 end
 
 # Core dependencies, pulled from master
-gem 'omniauth', :git => 'git://github.com/intridea/omniauth.git'
-gem 'omniauth-oauth2', :git => 'git://github.com/intridea/omniauth-oauth2.git'
+#gem 'omniauth', :git => 'https://github.com/intridea/omniauth.git'
+gem 'omniauth'
+#gem 'omniauth-oauth2', :git => 'https://github.com/intridea/omniauth-oauth2.git'
+gem 'omniauth-oauth2'
 
 # Under active development
-gem 'omniauth-tumblr', :git => 'git://github.com/jamiew/omniauth-tumblr.git'
+gem 'omniauth-tumblr', :git => 'https://github.com/jamiew/omniauth-tumblr.git'
 #gem 'omniauth-tumblr', :path => '~/dev/omniauth-strategies/omniauth-tumblr'
-gem 'omniauth-youtube', :git => 'git://github.com/jamiew/omniauth-youtube.git'
+gem 'omniauth-youtube', :git => 'https://github.com/jamiew/omniauth-youtube.git'
 #gem 'omniauth-youtube', :path => '~/dev/omniauth-strategies/omniauth-youtube'
 
 

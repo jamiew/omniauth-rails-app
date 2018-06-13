@@ -1,43 +1,27 @@
 GIT
-  remote: git://github.com/intridea/omniauth-oauth2.git
-  revision: d6409bb14337675e22c50f3c76b5d7f672a631a3
+  remote: https://github.com/jamiew/omniauth-tumblr.git
+  revision: df06d43eb547bda43c4fd19c068e959ba5922a94
   specs:
-    omniauth-oauth2 (1.1.1)
-      oauth2 (~> 0.9.0)
-      omniauth (~> 1.0)
-
-GIT
-  remote: git://github.com/intridea/omniauth.git
-  revision: e515908f10c9f780165058902fb11730eb5d9111
-  specs:
-    omniauth (1.1.3)
-      hashie (>= 1.2, < 3)
-      rack
-
-GIT
-  remote: git://github.com/jamiew/omniauth-tumblr.git
-  revision: 078c18c746c3f894e0edb1a0862e75a0d6da67a3
-  specs:
-    omniauth-tumblr (1.1)
+    omniauth-tumblr (1.2)
       multi_json
       omniauth-oauth (~> 1.0)
 
 GIT
-  remote: git://github.com/jamiew/omniauth-youtube.git
-  revision: 51de3d71cb9873eeaab7ed29a8b55bdf73cf5d06
+  remote: https://github.com/jamiew/omniauth-youtube.git
+  revision: 0e50182cd6a9396573c639b67ac92d13fcf8a480
   specs:
     omniauth-youtube (2.1)
       omniauth-oauth2 (~> 1.0)
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
-    actionmailer (3.2.13)
-      actionpack (= 3.2.13)
-      mail (~> 2.5.3)
-    actionpack (3.2.13)
-      activemodel (= 3.2.13)
-      activesupport (= 3.2.13)
+    actionmailer (3.2.22.5)
+      actionpack (= 3.2.22.5)
+      mail (~> 2.5.4)
+    actionpack (3.2.22.5)
+      activemodel (= 3.2.22.5)
+      activesupport (= 3.2.22.5)
       builder (~> 3.0.0)
       erubis (~> 2.7.0)
       journey (~> 1.0.4)
@@ -45,133 +29,143 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
-    activemodel (3.2.13)
-      activesupport (= 3.2.13)
+    activemodel (3.2.22.5)
+      activesupport (= 3.2.22.5)
       builder (~> 3.0.0)
-    activerecord (3.2.13)
-      activemodel (= 3.2.13)
-      activesupport (= 3.2.13)
+    activerecord (3.2.22.5)
+      activemodel (= 3.2.22.5)
+      activesupport (= 3.2.22.5)
       arel (~> 3.0.2)
       tzinfo (~> 0.3.29)
-    activeresource (3.2.13)
-      activemodel (= 3.2.13)
-      activesupport (= 3.2.13)
-    activesupport (3.2.13)
-      i18n (= 0.6.1)
+    activeresource (3.2.22.5)
+      activemodel (= 3.2.22.5)
+      activesupport (= 3.2.22.5)
+    activesupport (3.2.22.5)
+      i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
-    arel (3.0.2)
+    arel (3.0.3)
     builder (3.0.4)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
-    coffee-script (2.2.0)
+    coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.6.1)
+    coffee-script-source (1.12.2)
+    concurrent-ruby (1.0.5)
     erubis (2.7.0)
-    execjs (1.4.0)
-      multi_json (~> 1.0)
-    faraday (0.8.6)
-      multipart-post (~> 1.1)
-    hashie (2.0.3)
-    hike (1.2.1)
-    httpauth (0.2.0)
-    i18n (0.6.1)
+    execjs (2.7.0)
+    faraday (0.12.2)
+      multipart-post (>= 1.2, < 3)
+    ffi (1.9.25)
+    hashie (3.5.7)
+    hike (1.2.3)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     journey (1.0.4)
-    json (1.7.7)
-    jwt (0.1.8)
-      multi_json (>= 1.5)
-    mail (2.5.3)
-      i18n (>= 0.4.0)
+    json (1.8.6)
+    jwt (1.5.6)
+    mail (2.5.5)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.21)
-    multi_json (1.7.1)
-    multi_xml (0.5.3)
-    multipart-post (1.2.0)
-    oauth (0.4.7)
-    oauth2 (0.9.1)
-      faraday (~> 0.8)
-      httpauth (~> 0.1)
-      jwt (~> 0.1.4)
-      multi_json (~> 1.0)
+    mime-types (1.25.1)
+    multi_json (1.13.1)
+    multi_xml (0.6.0)
+    multipart-post (2.0.0)
+    oauth (0.5.4)
+    oauth2 (1.4.0)
+      faraday (>= 0.8, < 0.13)
+      jwt (~> 1.0)
+      multi_json (~> 1.3)
       multi_xml (~> 0.5)
-      rack (~> 1.2)
-    omniauth-facebook (1.4.1)
-      omniauth-oauth2 (~> 1.1.0)
-    omniauth-github (1.1.0)
-      omniauth (~> 1.0)
-      omniauth-oauth2 (~> 1.1)
-    omniauth-google-oauth2 (0.1.13)
-      omniauth (~> 1.0)
-      omniauth-oauth2
-    omniauth-oauth (1.0.1)
+      rack (>= 1.2, < 3)
+    omniauth (1.4.2)
+      hashie (>= 1.2, < 4)
+      rack (>= 1.0, < 3)
+    omniauth-facebook (5.0.0)
+      omniauth-oauth2 (~> 1.2)
+    omniauth-github (1.2.2)
+      omniauth (~> 1.4.0)
+      omniauth-oauth2 (>= 1.4.0, < 2.0)
+    omniauth-google-oauth2 (0.5.3)
+      jwt (>= 1.5)
+      omniauth (>= 1.1.1)
+      omniauth-oauth2 (>= 1.5)
+    omniauth-oauth (1.1.0)
       oauth
       omniauth (~> 1.0)
-    omniauth-twitter (0.0.14)
-      multi_json (~> 1.3)
-      omniauth-oauth (~> 1.0)
-    omniauth-vimeo (1.0.0)
-      multi_json (~> 1.3)
-      omniauth-oauth (~> 1.0)
-    pg (0.14.1)
-    polyglot (0.3.3)
-    rack (1.4.5)
-    rack-cache (1.2)
-      rack (>= 0.4)
-    rack-ssl (1.3.3)
+    omniauth-oauth2 (1.5.0)
+      oauth2 (~> 1.1)
+      omniauth (~> 1.2)
+    omniauth-twitter (1.4.0)
+      omniauth-oauth (~> 1.1)
       rack
-    rack-test (0.6.2)
+    omniauth-vimeo (2.0.1)
+      omniauth-oauth2
+    pg (1.0.0)
+    polyglot (0.3.5)
+    rack (1.4.7)
+    rack-cache (1.8.0)
+      rack (>= 0.4)
+    rack-ssl (1.3.4)
+      rack
+    rack-test (0.6.3)
       rack (>= 1.0)
-    rails (3.2.13)
-      actionmailer (= 3.2.13)
-      actionpack (= 3.2.13)
-      activerecord (= 3.2.13)
-      activeresource (= 3.2.13)
-      activesupport (= 3.2.13)
+    rails (3.2.22.5)
+      actionmailer (= 3.2.22.5)
+      actionpack (= 3.2.22.5)
+      activerecord (= 3.2.22.5)
+      activeresource (= 3.2.22.5)
+      activesupport (= 3.2.22.5)
       bundler (~> 1.0)
-      railties (= 3.2.13)
-    railties (3.2.13)
-      actionpack (= 3.2.13)
-      activesupport (= 3.2.13)
+      railties (= 3.2.22.5)
+    railties (3.2.22.5)
+      actionpack (= 3.2.22.5)
+      activesupport (= 3.2.22.5)
       rack-ssl (~> 1.3.2)
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
-    rake (10.0.3)
+    rake (12.3.1)
+    rb-fsevent (0.10.3)
+    rb-inotify (0.9.10)
+      ffi (>= 0.5.0, < 2)
     rdoc (3.12.2)
       json (~> 1.4)
-    sass (3.2.7)
+    sass (3.5.6)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
-    sprockets (2.2.2)
+    sprockets (2.2.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.7)
-    thor (0.17.0)
-    tilt (1.3.6)
-    treetop (1.4.12)
+    sqlite3 (1.3.13)
+    thor (0.20.0)
+    tilt (1.4.1)
+    treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    tzinfo (0.3.37)
-    uglifier (1.3.0)
-      execjs (>= 0.3.0)
-      multi_json (~> 1.0, >= 1.0.2)
+    tzinfo (0.3.54)
+    uglifier (4.1.11)
+      execjs (>= 0.3.0, < 3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   coffee-rails (~> 3.2)
-  omniauth!
+  omniauth
   omniauth-facebook
   omniauth-github
   omniauth-google-oauth2
-  omniauth-oauth2!
+  omniauth-oauth2
   omniauth-tumblr!
   omniauth-twitter
   omniauth-vimeo
@@ -181,3 +175,6 @@ DEPENDENCIES
   sass-rails (~> 3.2)
   sqlite3
   uglifier (>= 1.0)
+
+BUNDLED WITH
+   1.16.1
